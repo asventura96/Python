@@ -6,9 +6,9 @@ inventario=[]
 resposta="S"
 while resposta == "S":
     equipamento = [input("Equipamento: "),
-    float(input("Valor: ")),
-    int(input("Número de Série: ")),
-    input("Departamento: ")]
+                    float(input("Valor: ")),
+                    int(input("Número de Série: ")),
+                    input("Departamento: ")]
 inventario.append(equipamento)
 resposta = input("Digite \"S\" para continuar: ").upper()
 
