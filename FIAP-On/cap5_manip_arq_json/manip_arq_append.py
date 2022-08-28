@@ -7,3 +7,7 @@
 with open ("Python\/FIAP-On\/cap5_manip_arq_json\/arquivo.txt", "a") as arquivo:
     arquivo.write("\nAtum na batata!!!")
     arquivo.write("\nIsto eh um arquvo!!!")
+
+# r - read
+# w - Write
+# a - append
