@@ -9,3 +9,9 @@ def inserir (dicionario) :
     dicionario [input ("Digite o login: ") .upper()] = [input ("Digite o nome: ") .upper(), 
                                                           input ("Digite a última data de acesso: "), 
                                                           input ("Digite a última estação acessada: ") .upper()]
+    salvar(dicionario)
+
+def salvar (dicionario) :
+    with open("Python\/FIAP-On\/cap4_dicionarios_tuplas\/bd.txt", "a") as arquivo:
+        for chave, valor in dicionario.items():
+            arquivo.write(chave + ":" + str(valor))

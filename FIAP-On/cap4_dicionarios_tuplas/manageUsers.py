@@ -1,4 +1,4 @@
-from cap4_dicionarios_tuplas.funcoes import *
+from funcoes import *
 
 usuarios = {}
 opcao = perguntar ()
