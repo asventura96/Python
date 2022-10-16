@@ -1,6 +1,6 @@
 from socket import * # type: ignore
 
-servidor = "127.0.0.1" #localhost
+servidor = "localhost" # 127.0.0.1 # 10.0.0.1
 porta = 43210
 
 obj_socket = socket(AF_INET, SOCK_STREAM)
