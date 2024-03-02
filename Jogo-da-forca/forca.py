@@ -2,7 +2,7 @@ import random
 
 def jogar_forca():
     print("Bem-vindo ao jogo da forca!")
-    palavras = ["casa", "carro", "python", "programacao", "jogo", "forca"]
+    palavras = ["casa", "carro", "python", "programacao", "jogo", "forca", "amor", "amizade"]
     palavra_secreta = random.choice(palavras)
     letras_acertadas = ["_" for _ in palavra_secreta]
     enforcou = False
